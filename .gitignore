@@ -1,0 +1,124 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Vim swap files
+.*.swp
+*.swp
+*~
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+package-lock.json
+yarn.lock
+.npm/
+dist/
+build/
+.cache/
+.next/
+.out/
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.python-version
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Java / Maven / Gradle
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+.idea/
+
+# Go
+bin/
+pkg/
+
+# Rust
+/target/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Secrets / env
+.env
+.env.*
+secrets.env
+*.pem
+*.key
+*.crt
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+**/docker-compose.override.yml
+**/docker-compose.*.yml
+*.log
+docker/build/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Coverage
+coverage/
+coverage-*.xml
+
+# Misc
+.DS_Store
+dist/
+tmp/
+temp/
+.cache/
+yarn-debug.log*
+.idea/
+*.iml
+
+# Project specific directories
+datasets/
+*.yml
+*.yaml
+
+# Ignore all model weight files except for best.pt
+/**/weights/epoch*.pt
+/**/weights/last.pt
