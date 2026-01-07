@@ -47,6 +47,7 @@ __pycache__/
 venv/
 env/
 .venv/
+venv*/
 pip-log.txt
 pip-delete-this-directory.txt
 .python-version
@@ -114,10 +115,13 @@ yarn-debug.log*
 .idea/
 *.iml
 
+# Jupyter
+.ipynb_checkpoints/
+
 # Project specific directories
 datasets/
-*.yml
-*.yaml
+!datasets/**/data.yaml
+!datasets/README.*
 
 # Ignore all model weight files except for best.pt
 /**/weights/epoch*.pt
